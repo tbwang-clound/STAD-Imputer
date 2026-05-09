@@ -10,7 +10,8 @@
 
 ---
 
-## 1. Method Overview
+## 1. Overview
+![Overview](assets/overview.png)
 
 ## 2. Architecture
 
@@ -105,4 +106,4 @@ At each test epoch the following metrics are reported:
 
 ## 8. License
 
-This project is released for academic research purposes.
+This project is licensed under the MIT License - see the LICENSE file for details. It is intended for academic research purposes.
