@@ -182,7 +182,6 @@ fair comparison.
 
 At each test epoch the following metrics are reported:
 
-- **[Norm]** MAE, MSE (normalized space)
 - **[Real]** MAE, RMSE, MAPE (physical units)
 - **[Real]** R², SSIM, CRPS
 
@@ -194,9 +193,8 @@ If you find this work useful, please cite:
 
 ```bibtex
 @article{stad_imputer,
-  title   = {STAD-Imputer: Spatio-Temporal Adaptive Diffusion Imputer for
-             Coastal Remote Sensing Data},
-  year    = {2025}
+  title   = {STAD-Imputer: A Spatio-Temporal Adaptive Diffusion Framework for Highly Sparse Remote Sensing Data Imputation},
+  year    = {2026}
 }
 ```
 
