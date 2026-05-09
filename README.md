@@ -10,16 +10,13 @@
 
 ---
 
-## 1. Overview
-![Overview](assets/overview.png)
-
-## 2. Architecture
+## 1. Architecture
 
 ![STAD-Imputer Architecture](assets/frame.png)
 
 ---
 
-## 3. Installation
+## 2. Installation
 
 ```bash
 # Recommended: create a fresh conda environment
@@ -32,9 +29,9 @@ pip install -r requirements.txt
 
 ---
 
-## 4. Datasets
+## 3. Datasets
 
-All data used in this work are publicly available through online sources. The chlorophyll-a observation datasets were 8-day averaged Level 3 mapped products from Moderate Resolution Imaging Spectroradiometer (MODIS) Aqua projects with a spatial resolution of 4 km. You can select the data with `*.8D.*.4km.nc` as filter.
+All data used in this work are publicly available through online sources. The observation datasets were 8-day averaged Level 3 mapped products from Moderate Resolution Imaging Spectroradiometer (MODIS) Aqua projects with a spatial resolution of 4 km. You can select the data with `*.8D.*.4km.nc` as filter.
 
 We also uploaded the datasets on Zenodo at **https://doi.org/10.5281/zenodo.14724760**. Then,
 
@@ -101,9 +98,3 @@ At each test epoch the following metrics are reported:
 
 - **[Real]** MAE, RMSE, MAPE (physical units)
 - **[Real]** R², SSIM, CRPS
-
----
-
-## 8. License
-
-This project is licensed under the MIT License - see the LICENSE file for details. It is intended for academic research purposes.
